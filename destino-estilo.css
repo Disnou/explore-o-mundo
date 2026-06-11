@@ -1,0 +1,19 @@
+/* Limita a altura máxima da imagem para manter a harmonia visual */
+.placeholder-img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+header {
+  backdrop-filter: blur(5px);
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Pequeno efeito visual de elevação ao passar o rato nos cards */
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,36 @@
+body {
+  /* Define a foto como fundo de tela cheia */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('pixnio-3648x2736.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, 0.6);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+/* Estilo para deixar a etiqueta do local mais visível e elegante */
+.local-tag {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
