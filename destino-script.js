@@ -30,7 +30,7 @@ const dadosMundiais = {
     costumes: "A tradição da 'passeggiata' (caminhada de fim de tarde) e o café expresso tomado rapidamente no balcão."
   },
   "Grande Muralha da China": {
-    foto: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800",
+    foto: "grandemuralha.jpg",
     populacao: "21,5 milhões (Pequim)",
     historia: "Estrutura militar com mais de 21.000 km, construída ao longo de várias dinastias para proteger o império de invasões.",
     costumes: "Servir chá quente para os hóspedes como sinal de respeito e praticar Tai Chi Chuan ao amanhecer."
@@ -60,7 +60,7 @@ const dadosMundiais = {
     costumes: "A vida acelerada de Nova York, o clássico pedaço de pizza dobrado ao meio e os passeios de domingo no Central Park."
   },
   "Monte Fuji": {
-    foto: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+    foto: "https://upload.wikimedia.org/wikipedia/commons/6/60/Mount_Fuji_from_Lake_Shoji_%2815443819010%29.jpg",
     populacao: "Área de preservação",
     historia: "A montanha mais alta do Japão é um vulcão ativo (adormecido desde 1707) e um local sagrado que inspirou séculos de arte.",
     costumes: "Escalar a montanha à noite para ver o 'Goraiko' (o nascer do sol no topo) é uma jornada espiritual para os japoneses."
@@ -84,7 +84,7 @@ const dadosMundiais = {
     costumes: "Durante os equinócios, as sombras formam uma serpente descendo a pirâmide, atraindo multidões que celebram a herança Maia."
   },
   "Angkor Wat": {
-    foto: "https://images.unsplash.com/photo-1600100397608-f010e404bf0d?w=800",
+    foto: "https://www.worldhistory.org/uploads/images/11887.jpg",
     populacao: "Patrimônio no Camboja",
     historia: "O maior monumento religioso do mundo, originalmente construído no século XII como um templo hindu antes de se tornar budista.",
     costumes: "Monges budistas em vestes açafrão caminham pelo complexo ao amanhecer para receber oferendas da população local."
@@ -126,13 +126,13 @@ const dadosMundiais = {
     costumes: "A pontualidade britânica, o chá das cinco e a movimentação incessante em pubs centenários após o horário de trabalho."
   },
   "Alhambra": {
-    foto: "https://images.unsplash.com/photo-1595874245781-ca0ee67b57aa?w=800",
+    foto: "https://mundodele.com/en/wp-content/uploads/2025/10/Visit-Planning-Alhambra.webp",
     populacao: "230.000 (Granada)",
     historia: "Complexo de palácios e fortalezas na Espanha, é a joia máxima da arquitetura islâmica deixada pela dinastia Nasrida.",
     costumes: "A tradição andaluza do Flamenco, tocado em cavernas nas colinas, e o costume de servir tapas gratuitas junto com as bebidas."
   },
   "Ilha de Páscoa": {
-    foto: "https://images.unsplash.com/photo-1510014212711-bdfc919d6517?w=800",
+    foto: "https://aventurasnahistoria.com.br/wp-content/uploads/2025/10/GettyImages-1218560484.jpg",
     populacao: "7.700",
     historia: "Um dos lugares mais isolados do mundo (Chile), famoso pelas quase 1.000 gigantescas estátuas de pedra chamadas Moai.",
     costumes: "A preservação profunda da cultura Rapa Nui, com festivais anuais de dança polinésia e o culto ao Homem-Pássaro."

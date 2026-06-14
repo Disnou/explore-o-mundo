@@ -94,3 +94,25 @@ body {
     background-color: white; /* Garante fundo branco caso a imagem seja transparente e a caixa escura */
     padding: 5px; /* Uma pequena margem branca extra ao redor do código para melhor leitura */
 }
+/* --- Ajustes para Celular (Responsividade) --- */
+@media (max-width: 768px) {
+    .caixa-hover {
+        /* Muda de absoluto para fixo na tela toda */
+        position: fixed; 
+        top: 50%;
+        left: 50%;
+        
+        /* Centraliza perfeitamente no meio do celular */
+        transform: translate(-50%, -50%); 
+        
+        /* Ocupa 85% da largura da tela, não importa o tamanho do celular */
+        width: 85%; 
+        max-width: 350px; 
+        
+        /* Garante que fique por cima de qualquer outra coisa do site */
+        z-index: 9999; 
+        
+        /* Uma sombra maior para destacar bem que é um pop-up central */
+        box-shadow: 0 100vh 0 9999px rgba(0, 0, 0, 0.7); 
+    }
+}
