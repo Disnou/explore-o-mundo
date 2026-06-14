@@ -34,3 +34,63 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
 }
+/* Container de cada item do menu */
+.nav-item {
+    position: relative; /* Isso é crucial para a caixa aparecer exatamente embaixo do item */
+    display: inline-block;
+    padding: 10px;
+}
+
+/* O link principal (Explorar / Contato) */
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* A caixinha escondida (O "Quadrado") */
+.caixa-hover {
+    display: none; /* Esconde a caixa inicialmente */
+    position: absolute;
+    top: 100%; /* Posiciona logo abaixo da palavra */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a caixa em relação à palavra */
+    background-color: #222222; /* Fundo escuro combinando com seu menu */
+    color: #e0e0e0;
+    width: 280px; /* Largura da caixa, pode ajustar como quiser */
+    padding: 15px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+    z-index: 10; /* Garante que fique por cima de outros elementos da tela */
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Estilo específico para a linha divisória do contato */
+.contato-box hr {
+    border: 0;
+    border-top: 1px solid #444;
+    margin: 10px 0;
+}
+
+/* A Mágica do Hover: Mostra a caixa quando o mouse passa por cima do .nav-item */
+.nav-item:hover .caixa-hover {
+    display: block;
+}
+
+/* Efeito extra (opcional): mudar a cor do link ao passar o mouse */
+.nav-item:hover .nav-link {
+    color: #aaaaaa;
+}
+/* Ajuste para a imagem do QR Code dentro da caixa do Apoia-se */
+.apoia-box .qrcode-img {
+    width: 150px; /* Define um tamanho fixo e elegante para o QR Code */
+    height: 150px;
+    margin: 10px auto; /* Dá um pequeno espaço em cima/embaixo e centraliza */
+    display: block; /* Garante que a imagem se comporte como um bloco para centralizar */
+    border-radius: 8px; /* Opcional: arredonda levemente os cantos do QR Code */
+    background-color: white; /* Garante fundo branco caso a imagem seja transparente e a caixa escura */
+    padding: 5px; /* Uma pequena margem branca extra ao redor do código para melhor leitura */
+}
